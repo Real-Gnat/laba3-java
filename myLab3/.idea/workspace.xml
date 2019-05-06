@@ -2,45 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c224f256-c787-4644-b1bb-bbe649ba479e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab3_Java/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab3_Java/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab3_Java/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab3_Java/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab3_Java/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab3_Java/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab3_Java/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab3_Java/Lab3_Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WoodworkingMachine/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WoodworkingMachine/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WoodworkingMachine/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WoodworkingMachine/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WoodworkingMachine/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WoodworkingMachine/WoodworkingMachine.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WoodworkingMachine/src/ua/lviv/iot/woodworkingmachine/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WoodworkingMachine/src/ua/lviv/iot/woodworkingmachine/manager/MachineManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WoodworkingMachine/src/ua/lviv/iot/woodworkingmachine/models/CirucularMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WoodworkingMachine/src/ua/lviv/iot/woodworkingmachine/models/ClassificationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WoodworkingMachine/src/ua/lviv/iot/woodworkingmachine/models/MaterialType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WoodworkingMachine/src/ua/lviv/iot/woodworkingmachine/models/ProcessingType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WoodworkingMachine/src/ua/lviv/iot/woodworkingmachine/models/RamusMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../laba-fontan-" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../laba3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../laba3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../laba3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../laba3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../laba3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../laba3/laba3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled1/untitled1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba-fontan-" beforeDir="false" afterPath="$PROJECT_DIR$/../laba-fontan-" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/manager/MachineManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/CirucularMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/ClassificationType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/MaterialType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/ProcessingType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/RamusMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/WoodworkingMachine.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,115 +22,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myLab3.iml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/RamusMachine.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/ProcessingType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/MaterialType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/CirucularMachine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="5" lean-forward="true" selection-end-line="42" />
-              <folding>
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#749#750#0" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1015#1016#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1077#1078#0" expanded="true" />
-                <element signature="e#1121#1122#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/ClassificationType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/manager/MachineManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#1184#1185#0" expanded="true" />
-                <element signature="e#1230#1231#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/WoodworkingMachine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#986#987#0" expanded="true" />
-                <element signature="e#1015#1016#0" expanded="true" />
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1095#1096#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="21" column="23" lean-forward="true" selection-end-line="98" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -190,10 +62,11 @@
         <option value="$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/CirucularMachine.java" />
         <option value="$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/manager/MachineManager.java" />
         <option value="$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="33" />
     <option name="y" value="15" />
     <option name="width" value="1890" />
@@ -205,6 +78,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,33 +94,18 @@
             <path>
               <item name="myLab3" type="b2602c69:ProjectViewProjectNode" />
               <item name="myLab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="woodworkingmachine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myLab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myLab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="woodworkingmachine" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myLab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myLab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="woodworkingmachine" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556177836437" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557069380174" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab3" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -306,9 +165,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2574899" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -339,10 +197,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/Lab3_Java.iml" />
     <entry file="file://$PROJECT_DIR$/src/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/manager/Interface.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/manager/Interface.java" />
+    <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -352,22 +211,9 @@
     <entry file="file://$PROJECT_DIR$/myLab3.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/WoodworkingMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/RamusMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="306">
           <caret line="22" selection-end-line="22" />
           <folding>
             <element signature="e#528#529#0" expanded="true" />
@@ -392,17 +238,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/ClassificationType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/CirucularMachine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-end-line="42" />
+          <caret line="12" column="5" selection-end-line="42" />
           <folding>
             <element signature="e#712#713#0" expanded="true" />
             <element signature="e#749#750#0" expanded="true" />
@@ -420,27 +259,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/manager/MachineManager.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/ClassificationType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/models/WoodworkingMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#1184#1185#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/lviv/iot/woodworkingmachine/manager/MachineManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        <state relative-caret-position="399">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="23" lean-forward="true" selection-end-line="98" selection-end-column="31" />
         </state>
       </provider>
     </entry>

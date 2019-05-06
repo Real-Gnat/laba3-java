@@ -1,0 +1,99 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"><!--опис проекту -->
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>ua.lviv.iot</groupId> <!-- обране імія яким користується розробник цього проекту  -->
+    <artifactId>Lab3</artifactId> <!-- конретний проект -->
+    <packaging>jar</packaging><!--тип результуючої збірки проекту -->
+    <version>1.0-SNAPSHOT</version>  <!--версія нашого проекту снепшот спеціальна версія яка показує робочу версію -->
+    <build> <!--опис зборки проекту -->
+        <plugins><!--розділ плагінів які викорситовується для збирання проекту  -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId><!-- назва розробника -->
+                <artifactId>maven-compiler-plugin</artifactId><!-- назва плагіну -->
+                <version>3.8.0</version><!--версія плагіну -->
+                <configuration><!--вхідні параметри для плагіна  -->
+                    <source>11</source> <!--версія JDK яка використовувалась пр написанні коду-->
+                    <target>11</target>  <!--версія джави на ран тйм середовищі -->
+                </configuration><!--вхідні параметри для плагіна  -->
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId><!-- назва розробника -->
+                <artifactId>maven-site-plugin</artifactId><!-- плагін використовується для стоврення сайту  -->
+                <version>3.7.1</version><!--версія плагіну -->
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId><!-- назва розробника -->
+                <artifactId>maven-project-info-reports-plugin</artifactId><!-- використовується для генерування звітів про проект   -->
+                <version>3.0.0</version><!--версія плагіну -->
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId> <!-- визначає наскільки код покритий тестами і запуском зборки -->
+                <artifactId>jacoco-maven-plugin</artifactId><!-- назва плагіну -->
+                <version>0.8.3</version><!--версія плагіну -->
+                <configuration> <!-- налаштування плагіну -->
+                    <output>file</output><!-- для того щоб вивело на екран -->
+                    <append>true</append><!-- результати тестів дописувати до попередніх  -->
+                </configuration><!--вхідні параметри для плагіна  -->
+                <executions>
+                    <execution>  <!--кажем що плагін буде виконувати-->
+                        <id>jacoco-initialize</id> <!-- ідентифікатор-->
+                        <goals>  <!--очікується-->
+                            <goal>prepare-agent</goal><!--ціль для якої виконується плагін  -->
+                        </goals>
+                    </execution><!--описує порядок виконання плагіну -->
+                    <execution><!--описує порядок виконання плагіну -->
+                        <id>jacoco-site</id><!-- ідентифікатор -->
+                        <phase>test</phase><!--фаза сценарію майвена на якій виконується плагін  -->
+                        <goals>
+                            <goal>report</goal><!--вказує на звіт як  ціль тестів -->
+                        </goals><!--вказує на звіт як  ціль тестів -->
+                    </execution><!--описує порядок виконання плагіну -->
+                </executions><!--описує порядок виконання плагіну -->
+            </plugin>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId> <!-- запускає тести і генерує за результатами і записує звіти   -->
+                <version>2.22.1</version><!--версія плагіну -->
+            </plugin>
+        </plugins>
+    </build>
+    <name>Fortifications</name> <!-- назва проекту яка визначає юрл адресу  -->
+    <url>http://maven .apache.org</url> <!-- вказує адресу де буде розташова документація  -->
+    <dependencies><!-- розділ залежності проекту де вказується які сторонні джава бібліотеки треба підключити  -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId><!-- назва розробника -->
+            <artifactId>junit-jupiter-api</artifactId><!-- назва бібліртеки  -->
+            <version>5.4.0</version><!--версія плагіну -->
+            <scope>test</scope><!-- область застосування для тестів  -->
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId><!-- назва розробника -->
+            <artifactId>junit-jupiter-engine</artifactId><!-- назва бібліртеки  -->
+            <version>5.4.0</version><!--версія плагіну -->
+            <scope>test</scope>
+        </dependency> <!--секція визначення залежності проекту -->
+    </dependencies><!--секція визначення залежності проекту -->
+    <reporting><!-- розділ для генерування звітів  -->
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId><!-- назва розробника -->
+                <artifactId>maven-checkstyle-plugin</artifactId><!-- назва бібліртеки  -->
+                <version>3.0.0</version><!--версія плагіну -->
+                <configuration>
+                    <configLocation>./src/main/resources/checkstyle/checkstyle.xml</configLocation><!-- вказує шлях до конфігураційного файлу  -->
+                    <consoleOutput>true</consoleOutput><!-- виводити результати чек стайлу в консоль  -->
+                    <includeTestSourceDirectory>true</includeTestSourceDirectory><!-- треба підключити папку з сорсом тестів  -->
+                </configuration><!--вхідні параметри для плагіна  -->
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId><!-- назва розробника -->
+                <artifactId>maven-pmd-plugin</artifactId><!-- назва бібліртеки  -->
+                <version>3.11.0</version><!--версія плагіну -->
+            </plugin>
+            <plugin>
+                <groupId>com.github.spotbugs</groupId><!-- назва розробника -->
+                <artifactId>spotbugs-maven-plugin</artifactId><!-- назва бібліртеки  -->
+                <version>3.1.10</version><!--версія плагіну -->
+            </plugin>
+        </plugins>
+    </reporting>
+</project> <!--опис проекту -->

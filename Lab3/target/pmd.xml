@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.8.0" timestamp="2019-05-06T08:37:35.603">
+<file name="C:\Users\User\IdeaProjects\Lab3\src\main\java\ua\lviv\iot\woodworkingmachine\Main.java">
+<violation beginline="8" endline="8" begincolumn="1" endcolumn="24" rule="UnusedImports" ruleset="Best Practices" package="ua.lviv.iot.woodworkingmachine" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'java.util.BitSet'
+</violation>
+</file>
+<file name="C:\Users\User\IdeaProjects\Lab3\src\main\java\ua\lviv\iot\woodworkingmachine\manager\MachineManager.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="58" rule="UnusedImports" ruleset="Best Practices" package="ua.lviv.iot.woodworkingmachine.manager" class="MachineManager" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'ua.lviv.iot.woodworkingmachine.models.RamusMachine'
+</violation>
+<violation beginline="20" endline="22" begincolumn="54" endcolumn="49" rule="UselessParentheses" ruleset="Code Style" package="ua.lviv.iot.woodworkingmachine.manager" class="MachineManager" method="sortByVolume" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\User\IdeaProjects\Lab3\src\main\java\ua\lviv\iot\woodworkingmachine\models\CirucularMachine.java">
+<violation beginline="21" endline="21" begincolumn="26" endcolumn="31" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.woodworkingmachine.models" class="CirucularMachine" method="CirucularMachine" variable="cirkul" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'cirkul'.
+</violation>
+<violation beginline="22" endline="22" begincolumn="26" endcolumn="32" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.woodworkingmachine.models" class="CirucularMachine" method="CirucularMachine" variable="drawing" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'drawing'.
+</violation>
+<violation beginline="23" endline="23" begincolumn="23" endcolumn="23" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.woodworkingmachine.models" class="CirucularMachine" method="CirucularMachine" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'i'.
+</violation>
+<violation beginline="24" endline="24" begincolumn="23" endcolumn="24" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.woodworkingmachine.models" class="CirucularMachine" method="CirucularMachine" variable="i1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'i1'.
+</violation>
+<violation beginline="25" endline="25" begincolumn="23" endcolumn="24" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.woodworkingmachine.models" class="CirucularMachine" method="CirucularMachine" variable="i2" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'i2'.
+</violation>
+</file>
+<file name="C:\Users\User\IdeaProjects\Lab3\src\main\java\ua\lviv\iot\woodworkingmachine\models\RamusMachine.java">
+<violation beginline="16" endline="16" begincolumn="26" endcolumn="34" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.woodworkingmachine.models" class="RamusMachine" method="RamusMachine" variable="procesing" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'procesing'.
+</violation>
+<violation beginline="17" endline="17" begincolumn="26" endcolumn="33" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.woodworkingmachine.models" class="RamusMachine" method="RamusMachine" variable="fills_in" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'fills_in'.
+</violation>
+<violation beginline="18" endline="18" begincolumn="23" endcolumn="23" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.woodworkingmachine.models" class="RamusMachine" method="RamusMachine" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'i'.
+</violation>
+</file>
+<file name="C:\Users\User\IdeaProjects\Lab3\src\main\java\ua\lviv\iot\woodworkingmachine\models\WoodworkingMachine.java">
+<violation beginline="20" endline="20" begincolumn="26" endcolumn="32" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.woodworkingmachine.models" class="WoodworkingMachine" method="WoodworkingMachine" variable="cleaner" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'cleaner'.
+</violation>
+<violation beginline="21" endline="21" begincolumn="26" endcolumn="32" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.woodworkingmachine.models" class="WoodworkingMachine" method="WoodworkingMachine" variable="drawing" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'drawing'.
+</violation>
+<violation beginline="22" endline="22" begincolumn="23" endcolumn="23" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.woodworkingmachine.models" class="WoodworkingMachine" method="WoodworkingMachine" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'i'.
+</violation>
+<violation beginline="23" endline="23" begincolumn="38" endcolumn="55" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.woodworkingmachine.models" class="WoodworkingMachine" method="WoodworkingMachine" variable="gorizontalDrilling" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'gorizontalDrilling'.
+</violation>
+</file>
+</pmd>
